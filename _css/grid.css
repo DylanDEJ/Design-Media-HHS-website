@@ -1,0 +1,216 @@
+body {
+    display: grid;
+    grid-template-columns:20% 1fr 20%;
+    grid-template-rows: 200px 1000px 1100px 1100px 1100px 1fr 1fr;
+    grid-template-areas:
+    ". nav ."
+    ". header ."
+    ". werk-logo ."
+    ". werk-website ."
+    ". werk-poster ."
+    ". over-mij ."
+    ". contact .";
+}
+
+nav {
+    display: grid;
+    grid-area: nav;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 100%;
+    align-items: center;
+    grid-template-areas:
+    "logo-site-container nav-items";
+}
+
+#header {
+    grid-area: header;
+}
+
+.logo-site-container {
+    grid-area: logo-site-container;
+ }
+
+ .nav-items {
+    grid-area: nav-items;
+ }
+
+#werk-logo {
+    display: grid;
+    grid-area: werk-logo;
+    grid-template-columns:500px 256px 500px;
+    grid-template-rows: 1fr 500px 800px;
+    grid-template-areas:
+    "werk-titel . . "
+    "logo1-container . logo2-container "
+    " logo3-container . . ";
+}
+
+.werk-logo-titel {
+    grid-area: werk-logo-titel;
+}
+
+.logo1-container {
+    grid-area: logo1-container;
+}
+
+.logo2-container {
+    grid-area: logo2-container;
+}
+
+.logo3-container {
+    grid-area: logo3-container;
+    grid-column-end: span 3
+}
+
+#werk-website {
+    display: grid;
+    grid-area: werk-website;
+    grid-template-columns:500px 220px 500px;
+    grid-template-rows: 1fr 1200px;
+    grid-template-areas:
+    "werk-titel . ."
+    "logo1-container . logo2-container"
+}
+
+#werk-poster {
+    display: grid;
+    grid-area: werk-poster;
+    grid-template-columns:500px 292px 500px;
+    grid-template-rows: 1fr 1200px;
+    grid-template-areas:
+    "werk-titel . ."
+    "logo1-container . logo2-container"
+}
+
+.info-achtergrond {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 34% 32% 34%;
+    grid-template-areas:
+    "info-logo info-beschrijving"
+    "info-kleuren info-iteratie"
+    "info-inspiratie .";
+}
+
+.info-kleuren {
+    grid-area: info-kleuren;
+    overflow: auto;
+}
+
+.info-logo {
+    grid-area: info-logo;
+    overflow: auto;
+}
+
+.info-beschrijving {
+    grid-area: info-beschrijving;
+    overflow: auto;
+}
+
+.info-inspiratie {
+    grid-area: info-inspiratie;
+    overflow: auto;
+}
+
+
+.info-iteratie {
+    grid-area: info-iteratie;
+    grid-row-end: span 2;
+    overflow: auto;
+}
+
+
+#over-mij {
+    display: grid;
+    grid-area: over-mij;
+    grid-template-columns:30% 775px;
+    grid-template-rows:  100px 500px;
+    grid-template-areas:
+    "werk-titel . "
+    "ik tekst-container";
+}
+
+.text-link {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color: #acb595;
+}
+
+.text-link:hover {
+    color: #bfd9b7;
+}
+
+.text-link:active {
+    color: #d6d9d7;
+}
+
+
+.ik {
+    grid-area: ik;
+}
+
+.tekst-container {
+    grid-area: tekst-container;
+}
+
+.tekst-1 {
+    grid: tekst-1;
+}
+
+.tekst-2 {
+    grid: tekst-2;
+}
+
+.tekst-3 {
+    grid: tekst-3;
+}
+
+#contact {
+    display: grid;
+    grid-area: contact;
+    grid-template-columns:50% 68px 20%;
+    grid-template-rows: 1fr 100%;
+    grid-template-areas:
+    "werk titel ." 
+    "formulier . social-media";
+}
+
+.formulier {
+    grid-area: formulier;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    grid-template-rows: 50px 50px 1fr 50px;
+    grid-template-areas:
+    "naam telefoonnummer"
+    "email ."
+    "bericht ."
+    ". knop";
+}
+
+.naam {
+    grid-area: naam;
+}
+
+.tele {
+    grid-area: telefoonnummer;
+}
+
+.email {
+    grid-area: email;
+}
+
+.bericht {
+    grid-area: bericht;
+    grid-column-end: span 2;
+}
+
+.knop {
+    grid-area: knop;
+}
+
+.social-media {
+    grid-area: social-media;
+    margin-left: 72px;
+}

@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css?family=Mitr|Saira+Semi+Condensed&display=swap');
+
+* {
+    margin: 0;
+}
+
+#header {
+    padding: 30px;
+}
+
+h2 {
+    font-family: 'Mitr', sans-serif; 
+}
+
+nav {
+    position: fixed;
+    background: #ffffff;
+    width: 100%;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.logo-site-container {
+    margin-left: 50px;
+}
+
+.logo-site {
+    height: 70px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+li a {
+    font-family: 'Mitr', sans-serif; 
+    text-decoration: none;
+    color: #d6d9d7;
+    -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+    transition: color 1s; /* For modern browsers */
+}
+
+li a:hover {
+    color: #000000;
+}
+
+.active a {
+    color: #000000 !important;
+}
+
+.werk-titel { 
+    font-family: 'Mitr', sans-serif; 
+    margin-bottom: 100px;
+    width: 270px;
+}
+
+.logo-werk-row1 {
+    height: 400px;
+    width: auto;
+    cursor: pointer;
+    opacity: 0.8;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    border: #d6d9d7 solid;
+}
+
+.logo-werk-row2 {
+    height: 348px;
+    width: auto;
+    cursor: pointer;
+    opacity: 0.8;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    border: #d6d9d7 solid;
+}
+
+.website-werk-row1 {
+    height: 788px;
+    width: auto;
+    cursor: pointer;
+    opacity: 0.8;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    border: #d6d9d7 solid;
+}
+
+.poster-werk-row1 {
+    height: 720px;
+    width: auto;
+    cursor: pointer;
+    opacity: 0.8;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    border: #d6d9d7 solid;
+}
+
+
+.logo-werk:hover {
+    opacity: 1;
+}
+
+.logo1-container {
+    width: 100%;
+}
+
+.logo2-container {
+    width: 100%;
+
+}
+
+.logo3-container {
+    width: 100%;
+
+}
+
+h3 {
+    font-family: 'Mitr', sans-serif; 
+}
+
+p {
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.info-block {
+    display: block;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+.visuallyhidden {
+    opacity: 0;
+}
+
+.info-sluiten {
+    position: absolute;
+    right: 16%;
+    top: 50px;
+    cursor: pointer;
+}
+
+.info-achtergrond {
+    background-color:  #f7f8ee;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    height: 80%;
+    width: 70%;
+    padding: 40px
+}
+
+.info-logo-werk {
+    height: 60%;
+    margin-right: 50px;
+    overflow: auto;
+    margin-bottom: 10px
+}
+
+.info-logo-werk:hover {
+    position: absolute;
+    height: 70%;
+    max-width: 1500px;
+    cursor: none;
+}
+
+.logo-inspiratie {
+    height: 200px;
+    margin-right: 20px;
+}
+
+.klein {
+    max-width: 200px;
+}
+
+.kleiner {
+    max-width: 475px;
+}
+
+.logo-schets1 {
+    height: 150px;
+    margin-right: 20px;
+}
+
+.logo-schets1:hover {
+    position: absolute;
+    height: 50%;
+    max-width: 1500px;
+    cursor: none;
+}
+
+
+.kleur-tekst {
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.wit {
+    color: #000000 !important;
+}
+
+.kleur1-logo {
+    background-color: #e94e1b;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px;    
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px;   
+}
+
+.kleur2-logo {
+    background-color: #f39200;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px; 
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+
+.kleur3-logo {
+    background-color: #be1522;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px;    
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+
+.kleur4-logo {
+    background-color: #ffffff;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px; 
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+
+.kleur5-logo {
+    background-color: #000000;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px; 
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+
+.kleur6-logo {
+    background-color: #009fe3;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px;    
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+
+.kleur7-logo {
+    background-color: #0a5969;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px; 
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+
+.kleur8-logo {
+    background-color: #3f8e9e;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px; 
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+
+.kleur1-website {
+    background-color: #056839;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px;    
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px;   
+}
+
+.kleur2-website {
+    background-color: #ffffff;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px; 
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+
+.kleur3-website {
+    background-color: #e5e5e5;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px;    
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+
+.kleur4-website {
+    background-color: #54d1c1;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px;    
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px;   
+}
+
+.kleur5-website {
+    background-color: #6fc490;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px; 
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+
+.kleur6-website {
+    background-color: #e9fffd;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px;    
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+
+.kleur1-poster {
+    background-color: #be1522;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px;    
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px;   
+}
+
+.kleur2-poster {
+    background-color: #50c8e9;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px; 
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+
+.kleur3-poster {
+    background-color: #6fc490;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px;    
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+
+.kleur4-poster {
+    background-color: #ceefee;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px;    
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px;   
+}
+
+.kleur5-poster {
+    background-color: #54d1c1;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px; 
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+
+.kleur6-poster {
+    background-color: #28a6dc;
+    height: 200px;
+    width: 24%;
+    margin-right: 50px;    
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+
+.ik-foto {
+    border-radius: 50%;
+    height: 270px;
+}
+
+
+.tekst-container {
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.tekst-ik {
+    margin-bottom: 15px;
+}
+
+.titel {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    margin-bottom: 10px; 
+}
+
+.text {
+    margin-top: 75px; 
+}
+
+.form-text {
+    outline:none;
+    padding: 10px;
+    font-size: 15px;
+    transition: border 1s;
+    border: #d6d9d7 solid;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    margin-bottom: 10px;
+    cursor: auto;
+    width: 70%;
+}
+
+.form-text:focus {
+    border: #000000 solid;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.filled {
+    border: #000000 solid !important;
+}
+
+.valid {
+    border: #00a651 solid !important;
+    color: #00a651 !important;
+}
+
+.invalid {
+    border: #ff0000 solid !important;
+    color: #ff0000 !important;
+}
+
+
+::placeholder {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color: #d6d9d7;
+    text-decoration: none;
+}
+
+textarea {
+    width: 85% !important;
+}
+
+.form-button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 0;
+    text-decoration: none;
+    background: #acb595;
+    color: #ffffff;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 79%;
+}
+
+button:hover,
+button:focus {
+    background: #bfd9b7;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+.hidden {
+    display: none;
+}
+
+.icon {
+    height: 50px;
+    position: absolute;
+    transition: height 1s;
+    border-radius: 10px;
+}
+
+.icon:hover {
+    height: 70px;
+    position: absolute;
+}
